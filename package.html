@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomalig, Quezon Untouched Gem | Quezon, Philippines</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Jomalig, Quezon Untouched Gem</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="attraction.html">Attractions</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <div class="menu-btn"><i class="fa fa-bars"></i></div>
+    </nav>
+</header>
+
+
+<!-- Travel Packages -->
+<section id="packages" class="packages">
+    <h2>Travel Packages</h2>
+    <div class="packages-grid">
+        <div class="package-card">
+            <h3>Day Tour Package ⭐⭐⭐</h3>
+            <p>₱1,500 per person</p>
+            <ul>
+                <li>Guided city tour</li>
+                <li>Lake Danao visit</li>
+                <li>Lunch included</li>
+            </ul>
+        </div>
+        <div class="package-card featured">
+            <h3>3 Days 2 Nights ⭐⭐⭐⭐</h3>
+            <p>₱4,500 per person</p>
+            <ul>
+                <li>Hotel accommodation</li>
+                <li>All attractions entry</li>
+                <li>Meals + Transport</li>
+            </ul>
+        </div>
+        <div class="package-card">
+            <h3>Family Getaway ⭐⭐⭐⭐⭐</h3>
+            <p>₱8,000 good for 4</p>
+            <ul>
+                <li>Private tour</li>
+                <li>Beach resort access</li>
+                <li>Free souvenir</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+    <h2>What Tourists Say</h2>
+    <div class="testimonial-container">
+        <div class="testimonial active">
+            <p>"Jomalig, Quezon is such a hidden gem! The views are breathtaking and the people are very welcoming."</p>
+            <h4>- Maria Santos, Manila</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Best vacation I've had in years! little Boracay was peaceful and beautiful."</p>
+            <h4>- John Reyes, Cebu</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Great service and affordable travel packages. Will definitely come back!"</p>
+            <h4>- Ana Cruz, Davao</h4>
+        </div>
+    </div>
+    <div class="testimonial-dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+    </div>
+</section>
+
+<!-- Booking Form -->
+<section id="contact" class="booking">
+    <h2>Book Your Trip Now</h2>
+    <form id="bookingForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Contact Number" required>
+        <input type="date" required>
+        <select required>
+            <option value="">Select Package</option>
+            <option>Day Tour Package</option>
+            <option>3 Days 2 Nights</option>
+            <option>Family Getaway</option>
+        </select>
+        <textarea placeholder="Special Requests" rows="4"></textarea>
+        <button type="submit">Submit Booking</button>
+    </form>
+    <div id="formMsg" class="form-msg"></div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Jomalig, Quezon Untouched Gem. All Rights Reserved.</p>
+</footer>
+
+<script src="package.js"></script>
+</body>
+</html>
