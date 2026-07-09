@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomalig, Quezon Untouched Gem | Quezon, Philippines</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Jomalig, Quezon Untouched Gem</div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="attraction.html">Attractions</a></li>
+            <li><a href="package.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <div class="menu-btn"><i class="fa fa-bars"></i></div>
+    </nav>
+</header>
+
+
+
+
+
+
+<!-- Tourist Attractions -->
+<section id="attractions" class="attractions">
+    <h2>Top Tourist Attractions</h2>
+    <div class="attractions-grid">
+        <div class="card" data-category="beach">
+            <img src="pics/kanaway 1.jpeg" alt="kanaway">
+            <h3>Kanaway Beach</h3>
+            <p>Known as "The Sunrise Beach" be cause of its breathtaking sunrise views and unique rock formations.</p>
+        </div>
+        <div class="card" data-category="beach">
+            <img src="pics/salibungot 1.jpeg" alt="salibungot">
+            <h3>Salibungot Beach</h3>
+            <p>Famous for its golden sand and rows of agoho trees, it is a perfect destination for camping and watching beautiful sunsets.</p>
+        </div>
+        <div class="card" data-category="beach">
+            <img src="pics/lingayen 1.jpeg" alt="Lingayen">
+            <h3>Lingayen Cove</h3>
+            <p>A popular attraction known for its towering cliffs and strong ocean waves, making it deal for swimming and relaxation.</p>
+        </div>
+        <div class="card" data-category="beach">
+        <img src="pics/little 2.jpeg" alt="little">
+            <h3>Little Boracay</h3>
+            <p>A beautiful part of the Island featuring fine white sand and crystal-clear water.</p>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="pics/puno 2.jpeg" alt="Puno">
+            <h3>The "Walang Forever" Tree</h3>
+            <p>A well-known tourist spot that has become a favorite location for taking memorable photos dusrinbg island tours.</p>
+        </div>
+        <div class="card" data-category="landmark">
+            <img src="pics/Jomalig 1.jpeg" alt="jomalig">
+            <h3>Jomalig, Quezon</h3>
+            <p>It is famous for its raw, unspoiled beauty, sweeping golden and white sandbars</p>
+        </div>
+        <div class="card" data-category="beach">
+            <img src="pics/manlanat 3.jpeg" alt="manlanat">
+            <h3>Manlanat Rock Isles </h3>
+            <p>A group of rocky islets that serve as a bird sanctuary, making it an excellent destination for sightseeing and nature appreciation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Search & Filter -->
+<section class="search-filter">
+    <input type="text" id="searchInput" placeholder="Search destinations...">
+    <select id="filterSelect">
+        <option value="all">All Categories</option>
+        <option value="nature">Nature</option>
+        <option value="beach">Beaches</option>
+        <option value="landmark">Landmarks</option>
+    </select>
+</section>
+
+<!-- Weather Section -->
+<section class="weather">
+    <div class="weather-card">
+        <h3>Current Weather in Jomalig, Quezon</h3>
+        <div class="weather-info">
+            <i class="fa fa-sun weather-icon"></i>
+            <div>
+                <h2 id="temp">29°C</h2>
+                <p id="condition">Cloudy</p>
+                <p>Humidity: 61% | Wind: 20 km/h</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ 
+<!-- Booking Form -->
+<section id="contact" class="booking">
+    <h2>Book Your Trip Now</h2>
+    <form id="bookingForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Contact Number" required>
+        <input type="date" required>
+        <select required>
+            <option value="">Select Package</option>
+            <option>Day Tour Package</option>
+            <option>3 Days 2 Nights</option>
+            <option>Family Getaway</option>
+        </select>
+        <textarea placeholder="Special Requests" rows="4"></textarea>
+        <button type="submit">Submit Booking</button>
+    </form>
+    <div id="formMsg" class="form-msg"></div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Jomalig, Quezon Untouched Gem. All Rights Reserved.</p>
+</footer>
+
+<script src="attraction.js"></script>
+</body>
+</html>
